@@ -1,0 +1,156 @@
+{
+  "common": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "contact": "Contacto",
+    "resume": "Resumen",
+    "getInTouch": "Ponerse en Contacto",
+    "sayHello": "Di Hola",
+    "downloadResume": "Descargar Resumen (PDF)",
+    "viewExperienceOnline": "Ver Experiencia en Línea",
+    "madeWith": "Hecho con ❤️ por",
+    "whatsNext": "¿Qué sigue?",
+    "letsChat": "¡Hablemos!",
+    "contactDescription": "Ya sea que tengas una pregunta, una idea de proyecto o solo quieras conectar, siempre estoy feliz de escucharte. Déjame un mensaje y me pondré en contacto pronto.",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje"
+  },
+  "hero": {
+    "greeting": "Hola, mi nombre es",
+    "name": "Zuleny Cruz Rodriguez",
+    "tagline": "Construyendo la web, mejor.",
+    "description": "Desarrolladora de Software con visión de producto, enfocada en la eficiencia y la construcción de sistemas de alto impacto."
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "paragraph1": "Desarrolladora de Software con más de 3 años de experiencia en el ciclo de vida completo de aplicaciones, con fuerte enfoque en el desarrollo Backend, Bases de Datos y diseño de Arquitecturas (Microservicios/Monolíticas). Poseo experiencia y conocimientos en Frontend (React, Flutter) para aportar una visión integral al desarrollo.",
+    "paragraph2": "Mi valor reside en construir soluciones efectivas y sostenibles, como el desarrollo de decodificadores GPS esenciales, utilizados actualmente por más de 300 equipos en la flota, demostrando habilidad avanzada en sistemas de alto impacto."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Trayectoria Profesional",
+    "jobs": {
+      "centurysoft": {
+        "title": "Desarrolladora Full Stack",
+        "company": "CenturySoft",
+        "period": "Noviembre 2023 - Presente",
+        "achievements": [
+          "Desarrollé e implementé más de 200 nuevos protocolos de decodificación de frames GPS, integrando exitosamente más de 200 nuevos dispositivos.",
+          "Optimicé el registro de eventos y la entrega de notificaciones (push, WhatsApp, email, SMS), reduciendo significativamente el tiempo de entrega.",
+          "Reestructuré y refactoricé todos los reportes para mejorar la eficiencia y organización del código.",
+          "Reduje el consumo de la API de Google Maps en un 80% usando un mecanismo de caché, lo que llevó a una disminución significativa en las solicitudes."
+        ]
+      },
+      "getserver": {
+        "title": "Desarrolladora Jr. Full Stack",
+        "company": "Get Server",
+        "period": "Enero 2023 - Octubre 2023",
+        "achievements": [
+          "Colaboré en el desarrollo e implementación de aplicaciones web para los sectores de educación, logística y comercio electrónico.",
+          "Desarrollé una aplicación web para gestión de registros y una aplicación móvil para venta de licencias de antivirus.",
+          "Reduje los tiempos de carga de reportes críticos en un 50% en una aplicación de gestión de notas."
+        ]
+      },
+      "centurysoftIntern": {
+        "title": "Pasantía de Desarrollo y Soporte",
+        "company": "CenturySoft",
+        "period": "Febrero 2022 - Noviembre 2022",
+        "achievements": [
+          "Desarrollé nuevas funcionalidades para tres plataformas web y un servicio de sockets, contribuyendo a la estabilidad del sistema."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "frontend": {
+      "title": "Front-end",
+      "technologies": ["Angular", "HTML", "CSS", "Angular Material", "Bootstrap", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Flutter"]
+    },
+    "backend": {
+      "title": "Back-end",
+      "technologies": ["C#", ".NET", "PHP", "Laravel", "Python", "Entity Framework", "Node.js", "Express.js", "Flask"]
+    },
+    "database": {
+      "title": "Base de Datos",
+      "technologies": ["MS SQL", "MongoDB", "PostgreSQL", "MySQL"]
+    },
+    "ops": {
+      "title": "Ops",
+      "technologies": ["Git", "Docker", "AWS", "Azure", "GCP", "Vercel", "CI/CD", "GitHub Actions"]
+    }
+  },
+  "projects": {
+    "title": "Cosas en las que he trabajado",
+    "featured": "Proyecto Destacado",
+    "projects": {
+      "gpsDecoder": {
+        "title": "Sistema Decodificador GPS",
+        "description": "Desarrollé e implementé más de 200 protocolos de decodificación de frames GPS, integrando exitosamente más de 200 nuevos dispositivos. Este sistema es utilizado actualmente por más de 300 vehículos, demostrando alta competencia en sistemas de alto impacto.",
+        "technologies": [".NET", "C#", "SQL Server", "Entity Framework", "REST APIs"]
+      },
+      "mediaManagement": {
+        "title": "Plataforma de Gestión de Medios",
+        "description1": "Este proyecto tuvo como objetivo abordar las complejidades de la planificación de medios en diversos canales, donde desafíos como errores y problemas de cumplimiento surgen frecuentemente. Estos obstáculos a menudo resultan en tareas que consumen mucho tiempo y riesgos regulatorios potenciales, desviando la atención del pensamiento estratégico y los esfuerzos creativos.",
+        "description2": "Nuestro objetivo era agilizar el proceso de planificación de medios, minimizando errores y asegurando el cumplimiento, permitiendo que los equipos se concentren en la toma de decisiones estratégicas y la creatividad.",
+        "technologies": ["Angular", ".NET Framework", "SQL Server", "Microsoft IIS", "Firebase", "CI/CD"]
+      },
+      "smileAnalysis": {
+        "title": "Aplicación Web de Análisis de Sonrisas",
+        "description1": "Desarrollé e implementé una aplicación de detección de sonrisas para residentes mayores en hogares de ancianos japoneses usando algoritmos de visión por computadora y aprendizaje automático.",
+        "description2": "Diseñé e implementé una interfaz fácil de usar usando Angular con backend Flask para analizar sonrisas en tiempo real.",
+        "technologies": ["Angular", "Python", "SQL Server", "AWS"]
+      }
+    }
+  },
+  "education": {
+    "title": "Educación y Certificaciones",
+    "items": {
+      "bachelor": {
+        "title": "Licenciatura en Ingeniería en Sistemas",
+        "institution": "Universidad Autónoma Gabriel René Moreno",
+        "period": "Marzo 2016 - Junio 2022"
+      },
+      "diploma1": {
+        "title": "Diplomado en Infraestructura TI en la Nube con Software de Código Abierto",
+        "institution": "Escuela de Posgrado de Ingeniería UAGRM",
+        "period": "Septiembre 2022 - Abril 2023"
+      },
+      "diploma2": {
+        "title": "Diplomado en Arquitectura con Microservicios",
+        "institution": "Escuela de Posgrado Universidad Nur",
+        "period": "Octubre 2024 - Julio 2025"
+      },
+      "course": {
+        "title": "Inglés Básico",
+        "institution": "CAI-UAGRM",
+        "period": "Febrero 2018 - Junio 2019"
+      }
+    },
+    "additionalInfo": {
+      "title": "Información Adicional",
+      "languages": "Idiomas: Español (Nativo), Inglés (A2)"
+    }
+  },
+  "resume": {
+    "title": "Resumen",
+    "description": "Descarga mi resumen profesional completo para conocer más sobre mi experiencia, habilidades y logros.",
+    "technicalSkills": {
+      "title": "Habilidades Técnicas",
+      "description": "Angular, .NET, TypeScript, JavaScript, Node.js y tecnologías web modernas"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "description": "Desarrollo Full-Stack con enfoque en aplicaciones web escalables y desarrollo de APIs"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Portafolio de soluciones innovadoras y aplicaciones web modernas"
+    }
+  }
+}
+
