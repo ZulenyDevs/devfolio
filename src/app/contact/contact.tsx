@@ -30,7 +30,7 @@ export default function Contact() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-[var(--color-accent)] text-base font-mono mb-4">
-              <span className="font-mono">05.</span> {t('whatsNext')}
+              <span className="font-mono">06.</span> {t('whatsNext')}
             </p>
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[var(--color-text-white)] mb-6">
               {t('getInTouch')}

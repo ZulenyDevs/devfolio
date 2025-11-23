@@ -1,12 +1,13 @@
 'use client';
 
-import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
+import { Config, Github, Linkedin, Twitter, Instagram } from '@/lib/constants';
+
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
+  { icon: Github, href: Config.socials.github, label: 'GitHub' },
+  { icon: Linkedin, href: Config.socials.linkedin, label: 'LinkedIn' },
+  { icon: Twitter, href: Config.socials.twitter, label: 'Twitter' },
+  { icon: Instagram, href: Config.socials.instagram, label: 'Instagram' },
 ];
 
 export default function Sidebar() {

@@ -1,5 +1,5 @@
-import Experience from '@/components/Experience';
-import Skills from '@/components/Skills';
+import Experience from '@/app/experience/experience';
+import Skills from '@/app/experience/skills';
 
 export default function ExperiencePage() {
   return (

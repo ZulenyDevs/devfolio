@@ -15,7 +15,7 @@ export default function Experience() {
     <section id="experience" className="py-20">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-text-white)] mb-4 flex items-center gap-4 max-w-5xl">
-          <span className="text-[var(--color-accent)] font-mono text-2xl">03.</span>
+          <span className="text-[var(--color-accent)] font-mono text-2xl">02.</span>
           {t('title')}
           <div className="h-[1px] bg-[var(--color-border)] flex-1 ml-4 max-w-xs"></div>
         </h2>

@@ -3,10 +3,10 @@ import { setRequestLocale } from 'next-intl/server';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import SidebarLeft from '@/components/SidebarLeft';
-import SidebarRight from '@/components/SidebarRight';
+import Header from '@/app/dashboard/header';
+import Footer from '@/app/dashboard/footer';
+import SidebarLeft from '@/app/dashboard/sidebar-left';
+import SidebarRight from '@/app/dashboard/sidebar-right';
 
 type Props = {
   children: React.ReactNode;

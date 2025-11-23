@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { FolderIcon } from '@heroicons/react/24/outline';
 
 export default function Projects() {
