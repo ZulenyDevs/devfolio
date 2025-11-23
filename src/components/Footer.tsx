@@ -6,9 +6,9 @@ export default function Footer() {
   const t = useTranslations('common');
 
   return (
-    <footer className="text-center py-8 text-[#a8b2d1] text-sm">
+    <footer className="text-center py-8 text-[var(--color-text-tertiary)] text-sm border-t border-[var(--color-border)]">
       <p>
-        {t('madeWith')} Zuleny Cruz Rodriguez
+        © {new Date().getFullYear()} ZulenyDev.
       </p>
     </footer>
   );

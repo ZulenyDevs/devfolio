@@ -10,23 +10,23 @@ export default function Hero() {
   const locale = useLocale();
 
   return (
-    <section className="min-h-screen flex items-center justify-start px-6 sm:px-8 pt-24">
-      <div className="max-w-6xl mx-auto">
-        <p className="text-[#64ffda] text-sm sm:text-base mb-4 font-mono">
+    <section className="min-h-[calc(100vh-4rem)] flex items-center justify-start px-8 md:px-12">
+      <div className="max-w-7xl mx-auto w-full">
+        <p className="text-[var(--color-accent)] text-base sm:text-lg mb-5 font-mono">
           {t('greeting')}
         </p>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-[var(--color-text-white)] mb-4 leading-tight max-w-4xl">
           {t('name')}
         </h1>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#ccd6f6] mb-6">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[var(--color-text-primary)] mb-6 leading-tight max-w-4xl">
           {t('tagline')}
         </h2>
-        <p className="text-[#8892b0] text-lg sm:text-xl max-w-2xl mb-8">
+        <p className="text-[var(--color-text-secondary)] text-lg sm:text-xl max-w-2xl mb-10 leading-relaxed">
           {t('description')}
         </p>
         <Link
           href={`/${locale}/contact`}
-          className="inline-block px-8 py-3 border border-[#64ffda] text-[#64ffda] rounded hover:bg-[#64ffda]/10 transition-colors"
+          className="inline-block px-8 py-4 border-2 border-[var(--color-accent)] text-[var(--color-accent)] rounded hover:bg-[var(--color-accent-dim)] transition-all duration-300 font-medium text-lg"
         >
           {tCommon('getInTouch')}
         </Link>

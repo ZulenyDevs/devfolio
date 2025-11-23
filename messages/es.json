@@ -69,19 +69,54 @@
     "title": "Habilidades",
     "frontend": {
       "title": "Front-end",
-      "technologies": ["Angular", "HTML", "CSS", "Angular Material", "Bootstrap", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Flutter"]
+      "technologies": [
+        "Angular",
+        "HTML",
+        "CSS",
+        "Angular Material",
+        "Bootstrap",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Flutter"
+      ]
     },
     "backend": {
       "title": "Back-end",
-      "technologies": ["C#", ".NET", "PHP", "Laravel", "Python", "Entity Framework", "Node.js", "Express.js", "Flask"]
+      "technologies": [
+        "C#",
+        ".NET",
+        "PHP",
+        "Laravel",
+        "Python",
+        "Entity Framework",
+        "Node.js",
+        "Express.js",
+        "Flask"
+      ]
     },
     "database": {
       "title": "Base de Datos",
-      "technologies": ["MS SQL", "MongoDB", "PostgreSQL", "MySQL"]
+      "technologies": [
+        "MS SQL",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL"
+      ]
     },
     "ops": {
       "title": "Ops",
-      "technologies": ["Git", "Docker", "AWS", "Azure", "GCP", "Vercel", "CI/CD", "GitHub Actions"]
+      "technologies": [
+        "Git",
+        "Docker",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Vercel",
+        "CI/CD",
+        "GitHub Actions"
+      ]
     }
   },
   "projects": {
@@ -91,19 +126,37 @@
       "gpsDecoder": {
         "title": "Sistema Decodificador GPS",
         "description": "Desarrollé e implementé más de 200 protocolos de decodificación de frames GPS, integrando exitosamente más de 200 nuevos dispositivos. Este sistema es utilizado actualmente por más de 300 vehículos, demostrando alta competencia en sistemas de alto impacto.",
-        "technologies": [".NET", "C#", "SQL Server", "Entity Framework", "REST APIs"]
+        "technologies": [
+          ".NET",
+          "C#",
+          "SQL Server",
+          "Entity Framework",
+          "REST APIs"
+        ]
       },
       "mediaManagement": {
         "title": "Plataforma de Gestión de Medios",
         "description1": "Este proyecto tuvo como objetivo abordar las complejidades de la planificación de medios en diversos canales, donde desafíos como errores y problemas de cumplimiento surgen frecuentemente. Estos obstáculos a menudo resultan en tareas que consumen mucho tiempo y riesgos regulatorios potenciales, desviando la atención del pensamiento estratégico y los esfuerzos creativos.",
         "description2": "Nuestro objetivo era agilizar el proceso de planificación de medios, minimizando errores y asegurando el cumplimiento, permitiendo que los equipos se concentren en la toma de decisiones estratégicas y la creatividad.",
-        "technologies": ["Angular", ".NET Framework", "SQL Server", "Microsoft IIS", "Firebase", "CI/CD"]
+        "technologies": [
+          "Angular",
+          ".NET Framework",
+          "SQL Server",
+          "Microsoft IIS",
+          "Firebase",
+          "CI/CD"
+        ]
       },
       "smileAnalysis": {
         "title": "Aplicación Web de Análisis de Sonrisas",
         "description1": "Desarrollé e implementé una aplicación de detección de sonrisas para residentes mayores en hogares de ancianos japoneses usando algoritmos de visión por computadora y aprendizaje automático.",
         "description2": "Diseñé e implementé una interfaz fácil de usar usando Angular con backend Flask para analizar sonrisas en tiempo real.",
-        "technologies": ["Angular", "Python", "SQL Server", "AWS"]
+        "technologies": [
+          "Angular",
+          "Python",
+          "SQL Server",
+          "AWS"
+        ]
       }
     }
   },
@@ -153,4 +206,3 @@
     }
   }
 }
-

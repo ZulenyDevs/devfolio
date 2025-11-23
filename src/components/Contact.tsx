@@ -25,57 +25,80 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-6 sm:px-8">
-      <div className="max-w-2xl mx-auto">
-        <p className="text-[#64ffda] text-sm mb-4">{t('whatsNext')}</p>
-        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-          {t('getInTouch')}
-        </h2>
-        <p className="text-[#8892b0] mb-12 text-lg">
-          {t('contactDescription')}
-        </p>
+    <section id="contact" className="py-20">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-[var(--color-accent)] text-base font-mono mb-4">
+              <span className="font-mono">05.</span> {t('whatsNext')}
+            </p>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[var(--color-text-white)] mb-6">
+              {t('getInTouch')}
+            </h2>
+            <p className="text-[var(--color-text-secondary)] text-lg max-w-xl mx-auto leading-relaxed">
+              {t('contactDescription')}
+            </p>
+          </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <input
-              type="text"
-              name="name"
-              placeholder={t('name')}
-              value={formData.name}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 bg-[#112240] border border-[#233554] rounded text-white placeholder-[#8892b0] focus:outline-none focus:border-[#64ffda] transition-colors"
-            />
-          </div>
-          <div>
-            <input
-              type="email"
-              name="email"
-              placeholder={t('email')}
-              value={formData.email}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 bg-[#112240] border border-[#233554] rounded text-white placeholder-[#8892b0] focus:outline-none focus:border-[#64ffda] transition-colors"
-            />
-          </div>
-          <div>
-            <textarea
-              name="message"
-              placeholder={t('message')}
-              value={formData.message}
-              onChange={handleChange}
-              required
-              rows={6}
-              className="w-full px-4 py-3 bg-[#112240] border border-[#233554] rounded text-white placeholder-[#8892b0] focus:outline-none focus:border-[#64ffda] transition-colors resize-none"
-            />
-          </div>
-          <button
-            type="submit"
-            className="px-8 py-3 border border-[#64ffda] text-[#64ffda] rounded hover:bg-[#64ffda]/10 transition-colors"
-          >
-            {t('sayHello')}
-          </button>
-        </form>
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="group">
+              <label htmlFor="name" className="block text-[var(--color-text-primary)] mb-2 font-medium">
+                {t('name')}
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder={t('name')}
+                value={formData.name}
+                onChange={handleChange}
+                required
+                className="w-full px-5 py-4 bg-[var(--color-primary-light)] border-2 border-[var(--color-border)] rounded-lg text-[var(--color-text-white)] placeholder-[var(--color-text-secondary)] focus:outline-none focus:border-[var(--color-accent)] focus:bg-[var(--color-bg-hover)] transition-all duration-300"
+              />
+            </div>
+
+            <div className="group">
+              <label htmlFor="email" className="block text-[var(--color-text-primary)] mb-2 font-medium">
+                {t('email')}
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder={t('email')}
+                value={formData.email}
+                onChange={handleChange}
+                required
+                className="w-full px-5 py-4 bg-[var(--color-primary-light)] border-2 border-[var(--color-border)] rounded-lg text-[var(--color-text-white)] placeholder-[var(--color-text-secondary)] focus:outline-none focus:border-[var(--color-accent)] focus:bg-[var(--color-bg-hover)] transition-all duration-300"
+              />
+            </div>
+
+            <div className="group">
+              <label htmlFor="message" className="block text-[var(--color-text-primary)] mb-2 font-medium">
+                {t('message')}
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder={t('message')}
+                value={formData.message}
+                onChange={handleChange}
+                required
+                rows={6}
+                className="w-full px-5 py-4 bg-[var(--color-primary-light)] border-2 border-[var(--color-border)] rounded-lg text-[var(--color-text-white)] placeholder-[var(--color-text-secondary)] focus:outline-none focus:border-[var(--color-accent)] focus:bg-[var(--color-bg-hover)] transition-all duration-300 resize-none"
+              />
+            </div>
+
+            <div className="text-center pt-4">
+              <button
+                type="submit"
+                className="px-10 py-4 border-2 border-[var(--color-accent)] text-[var(--color-accent)] rounded-lg hover:bg-[var(--color-accent-dim)] transition-all duration-300 font-medium text-lg hover:transform hover:-translate-y-1"
+              >
+                {t('sayHello')}
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ import Contact from '@/components/Contact';
 
 export default function HomePage() {
   return (
-    <main className="w-full px-6 sm:px-8">
+    <>
       <Hero />
       <About />
       <Experience />
@@ -16,7 +16,7 @@ export default function HomePage() {
       <Projects />
       <Education />
       <Contact />
-    </main>
+    </>
   );
 }
 
