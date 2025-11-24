@@ -5,15 +5,11 @@ import { useTranslations } from 'next-intl';
 export default function Experience() {
   const t = useTranslations('experience');
 
-  const jobs = [
-    'centurysoft',
-    'getserver',
-    'centurysoftIntern',
-  ];
+  const jobs = t.raw('jobs') as any[];
 
   return (
-    <section id="experience" className="py-20">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="experience" className="py-20 px-8 md:px-12">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-text-white)] mb-4 flex items-center gap-4 max-w-5xl">
           <span className="text-[var(--color-accent)] font-mono text-2xl">02.</span>
           {t('title')}
@@ -24,10 +20,9 @@ export default function Experience() {
         </h3>
 
         <div className="space-y-12">
-          {jobs.map((jobKey, index) => {
-            const job = t.raw(`jobs.${jobKey}`);
+          {jobs.map((job, index) => {
             return (
-              <div key={jobKey} className="relative pl-8 pb-12 last:pb-0">
+              <div key={index} className="relative pl-8 pb-12 last:pb-0">
                 {/* Timeline line */}
                 {index !== jobs.length - 1 && (
                   <div className="absolute left-[7px] top-8 bottom-0 w-[2px] bg-[var(--color-border)]"></div>

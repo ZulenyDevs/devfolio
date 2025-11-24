@@ -9,8 +9,8 @@ export default function Projects() {
   const projects = ['gpsDecoder', 'mediaManagement', 'smileAnalysis'];
 
   return (
-    <section id="projects" className="py-20">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="projects" className="py-20 px-8 md:px-12">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--color-text-white)] mb-12 flex items-center gap-4">
           <span className="text-[var(--color-accent)] font-mono text-2xl">04.</span>
           {t('title')}

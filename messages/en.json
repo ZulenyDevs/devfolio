@@ -28,34 +28,34 @@
   "about": {
     "title": "About Me",
     "paragraph1": "Software Developer with 3+ years of experience across the full application lifecycle, with a strong focus on Backend development, Databases, and designing System Architectures (Microservices/Monolithic). I also possess knowledge and experience in Frontend (React, Flutter) to provide a comprehensive approach to development.",
-    "paragraph2": "I deliver value by building effective and sustainable solutions, such as developing essential GPS decoders currently utilized by over 300 active devices in the fleet, demonstrating high proficiency in high-impact systems."
+    "paragraph2": "I deliver value by building effective and sustainable solutions, such as developing GPS decoders currently utilized by over 300 active devices, demonstrating high proficiency in high-impact systems."
   },
   "experience": {
     "title": "Experience",
     "subtitle": "Professional Journey",
-    "jobs": {
-      "centurysoft": {
+    "jobs": [
+      {
         "title": "Full Stack Developer",
         "company": "CenturySoft",
         "period": "November 2023 - Present",
         "achievements": [
-          "Developed and implemented over 200 new GPS frame decoding protocols, successfully integrating more than 200 new devices.",
-          "Optimized event logging and notification delivery (push, WhatsApp, email, SMS), significantly reducing delivery time.",
+          "Developed and implemented new GPS frame decoding protocols, successfully integrating over 300 devices.",
+          "Optimized event logging and notification delivery (push, WhatsApp, email, SMS), significantly reducing sending time.",
           "Restructured and refactored all reports to improve code efficiency and organization.",
           "Reduced Google Maps API consumption by 80% using a caching mechanism, leading to a significant decrease in requests."
         ]
       },
-      "getserver": {
+      {
         "title": "Jr. Full Stack Developer",
         "company": "Get Server",
         "period": "January 2023 - October 2023",
         "achievements": [
           "Collaborated in the development and implementation of web applications for the education, logistics, and e-commerce sectors.",
-          "Developed a web application for registration management and a mobile app for antivirus license sales.",
+          "Developed a web application for managing avant-premiere registrations and a mobile app for selling antivirus licenses.",
           "Reduced critical report loading times by 50% in a note management application."
         ]
       },
-      "centurysoftIntern": {
+      {
         "title": "Development and Support Internship",
         "company": "CenturySoft",
         "period": "February 2022 - November 2022",
@@ -63,26 +63,36 @@
           "Developed new functionalities for three web platforms and a socket service, contributing to system stability."
         ]
       }
-    }
+    ]
   },
   "skills": {
     "title": "Skills",
-    "frontend": {
-      "title": "Front-end",
-      "technologies": ["Angular", "HTML", "CSS", "Angular Material", "Bootstrap", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Flutter"]
-    },
-    "backend": {
-      "title": "Back-end",
-      "technologies": ["C#", ".NET", "PHP", "Laravel", "Python", "Entity Framework", "Node.js", "Express.js", "Flask"]
-    },
-    "database": {
-      "title": "Database",
-      "technologies": ["MS SQL", "MongoDB", "PostgreSQL", "MySQL"]
-    },
-    "ops": {
-      "title": "Ops",
-      "technologies": ["Git", "Docker", "AWS", "Azure", "GCP", "Vercel", "CI/CD", "GitHub Actions"]
-    }
+    "categories": [
+      {
+        "title": "Languages & Frameworks",
+        "items": [
+          "Backend: C# (.NET), PHP (Laravel), JavaScript (Express)",
+          "Frontend: TypeScript (React), Dart (Flutter)",
+          "Databases: MySQL, PostgreSQL"
+        ]
+      },
+      {
+        "title": "Methodologies & Architecture",
+        "items": [
+          "Microservices, Monolithic Architecture",
+          "SCRUM, Agile Methodologies"
+        ]
+      },
+      {
+        "title": "Tools & Practices",
+        "items": [
+          "Version Control: Git (GitHub, GitLab, Bitbucket)",
+          "Testing: Postman, xUnit, Jmeter",
+          "DevOps & Cloud: Docker, AWS, Azure, Google Cloud Platform (GCP)",
+          "CI/CD: GitHub Actions"
+        ]
+      }
+    ]
   },
   "projects": {
     "title": "Things I've worked on",
@@ -91,19 +101,37 @@
       "gpsDecoder": {
         "title": "GPS Decoder System",
         "description": "Developed and implemented over 200 GPS frame decoding protocols, successfully integrating more than 200 new devices. This system is currently utilized by over 300 vehicles, demonstrating high proficiency in high-impact systems.",
-        "technologies": [".NET", "C#", "SQL Server", "Entity Framework", "REST APIs"]
+        "technologies": [
+          ".NET",
+          "C#",
+          "SQL Server",
+          "Entity Framework",
+          "REST APIs"
+        ]
       },
       "mediaManagement": {
         "title": "Media Management Platform",
         "description1": "This project aimed to tackle the complexities of media planning across diverse channels, where challenges such as errors and compliance issues frequently arise. These hurdles often result in time-consuming tasks and potential regulatory risks, diverting attention away from strategic thinking and creative endeavours.",
         "description2": "Our objective was to streamline the media planning process, minimizing errors and ensuring compliance, allowing teams to focus on strategic decision-making and creativity.",
-        "technologies": ["Angular", ".NET Framework", "SQL Server", "Microsoft IIS", "Firebase", "CI/CD"]
+        "technologies": [
+          "Angular",
+          ".NET Framework",
+          "SQL Server",
+          "Microsoft IIS",
+          "Firebase",
+          "CI/CD"
+        ]
       },
       "smileAnalysis": {
         "title": "Smile Analysis Web Application",
         "description1": "Developed and deployed a smile detection application for elderly residents in Japanese old age homes using computer vision and machine learning algorithms.",
         "description2": "Designed and implemented a user-friendly interface using Angular with Flask backend to analyze smiles in real-time.",
-        "technologies": ["Angular", "Python", "SQL Server", "AWS"]
+        "technologies": [
+          "Angular",
+          "Python",
+          "SQL Server",
+          "AWS"
+        ]
       }
     }
   },
@@ -153,4 +181,3 @@
     }
   }
 }
-

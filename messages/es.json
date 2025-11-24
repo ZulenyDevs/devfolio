@@ -28,96 +28,71 @@
   "about": {
     "title": "Acerca de Mí",
     "paragraph1": "Desarrolladora de Software con más de 3 años de experiencia en el ciclo de vida completo de aplicaciones, con fuerte enfoque en el desarrollo Backend, Bases de Datos y diseño de Arquitecturas (Microservicios/Monolíticas). Poseo experiencia y conocimientos en Frontend (React, Flutter) para aportar una visión integral al desarrollo.",
-    "paragraph2": "Mi valor reside en construir soluciones efectivas y sostenibles, como el desarrollo de decodificadores GPS esenciales, utilizados actualmente por más de 300 equipos en la flota, demostrando habilidad avanzada en sistemas de alto impacto."
+    "paragraph2": "Mi valor reside en construir soluciones efectivas y sostenibles, como el desarrollo de decodificadores GPS, utilizados actualmente por más de 300 equipos, demostrando habilidad avanzada en sistemas de alto impacto."
   },
   "experience": {
     "title": "Experiencia",
     "subtitle": "Trayectoria Profesional",
-    "jobs": {
-      "centurysoft": {
-        "title": "Desarrolladora Full Stack",
+    "jobs": [
+      {
+        "title": "Desarrollador Full Stack",
         "company": "CenturySoft",
         "period": "Noviembre 2023 - Presente",
         "achievements": [
-          "Desarrollé e implementé más de 200 nuevos protocolos de decodificación de frames GPS, integrando exitosamente más de 200 nuevos dispositivos.",
-          "Optimicé el registro de eventos y la entrega de notificaciones (push, WhatsApp, email, SMS), reduciendo significativamente el tiempo de entrega.",
+          "Desarrollé e implementé protocolos nuevos de decodificación de tramas GPS, integrando exitosamente más de 300 equipos.",
+          "Optimicé el registro de eventos y la entrega de notificaciones (push, WhatsApp, correo electrónico, SMS), reduciendo significativamente el tiempo de envío.",
           "Reestructuré y refactoricé todos los reportes para mejorar la eficiencia y organización del código.",
-          "Reduje el consumo de la API de Google Maps en un 80% usando un mecanismo de caché, lo que llevó a una disminución significativa en las solicitudes."
+          "Reduje el consumo de la API de Google Maps en un 80% mediante un mecanismo de caching, lo que resultó en una disminución considerable de las solicitudes."
         ]
       },
-      "getserver": {
-        "title": "Desarrolladora Jr. Full Stack",
+      {
+        "title": "Desarrollador Jr. Full Stack",
         "company": "Get Server",
         "period": "Enero 2023 - Octubre 2023",
         "achievements": [
           "Colaboré en el desarrollo e implementación de aplicaciones web para los sectores de educación, logística y comercio electrónico.",
-          "Desarrollé una aplicación web para gestión de registros y una aplicación móvil para venta de licencias de antivirus.",
-          "Reduje los tiempos de carga de reportes críticos en un 50% en una aplicación de gestión de notas."
+          "Desarrollé una aplicación web para la gestión de registros para avant-premieres y una app móvil para la gestión de ventas de licencias.",
+          "Reduje los tiempos de carga de reportes críticos en una aplicación web de gestión de notas."
         ]
       },
-      "centurysoftIntern": {
+      {
         "title": "Pasantía de Desarrollo y Soporte",
         "company": "CenturySoft",
         "period": "Febrero 2022 - Noviembre 2022",
         "achievements": [
-          "Desarrollé nuevas funcionalidades para tres plataformas web y un servicio de sockets, contribuyendo a la estabilidad del sistema."
+          "Desarrollé funcionalidades nuevas para tres plataformas web y un servicio de sockets, contribuyendo a la estabilidad del sistema."
         ]
       }
-    }
+    ]
   },
   "skills": {
     "title": "Habilidades",
-    "frontend": {
-      "title": "Front-end",
-      "technologies": [
-        "Angular",
-        "HTML",
-        "CSS",
-        "Angular Material",
-        "Bootstrap",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Tailwind CSS",
-        "Flutter"
-      ]
-    },
-    "backend": {
-      "title": "Back-end",
-      "technologies": [
-        "C#",
-        ".NET",
-        "PHP",
-        "Laravel",
-        "Python",
-        "Entity Framework",
-        "Node.js",
-        "Express.js",
-        "Flask"
-      ]
-    },
-    "database": {
-      "title": "Base de Datos",
-      "technologies": [
-        "MS SQL",
-        "MongoDB",
-        "PostgreSQL",
-        "MySQL"
-      ]
-    },
-    "ops": {
-      "title": "Ops",
-      "technologies": [
-        "Git",
-        "Docker",
-        "AWS",
-        "Azure",
-        "GCP",
-        "Vercel",
-        "CI/CD",
-        "GitHub Actions"
-      ]
-    }
+    "categories": [
+      {
+        "title": "Lenguajes y Frameworks",
+        "items": [
+          "Backend: C# (.NET), PHP (Laravel), JavaScript (Express)",
+          "Frontend: TypeScript (React), Dart (Flutter)",
+          "Base de Datos: MySQL, PostgreSQL"
+        ]
+      },
+      {
+        "title": "Metodologías y Arquitectura",
+        "items": [
+          "Arquitectura en Microservicios y Monolíticas",
+          "SCRUM, Metodologías Ágiles"
+        ]
+      },
+      {
+        "title": "Herramientas y Prácticas",
+        "items": [
+          "Control de Versiones: Git (GitHub, GitLab, Bitbucket)",
+          "Testing: Postman, xUnit, Jmeter",
+          "DevOps & Cloud: Docker, AWS, Azure, Google Cloud Platform (GCP)",
+          "CI/CD: GitHub Actions"
+        ]
+      }
+    ]
   },
   "projects": {
     "title": "Cosas en las que he trabajado",
