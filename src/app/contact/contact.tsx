@@ -10,11 +10,37 @@ export default function Contact() {
     email: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', message: '' }); // Reset form
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+      // Reset status after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -25,8 +51,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8">
+    <section id="contact" className="py-20 px-8 md:px-12">
+      <div className="max-w-6xl mx-auto">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <p className="text-[var(--color-accent)] text-base font-mono mb-4">
@@ -92,10 +118,23 @@ export default function Contact() {
             <div className="text-center pt-4">
               <button
                 type="submit"
-                className="px-10 py-4 border-2 border-[var(--color-accent)] text-[var(--color-accent)] rounded-lg hover:bg-[var(--color-accent-dim)] transition-all duration-300 font-medium text-lg hover:transform hover:-translate-y-1"
+                disabled={isSubmitting}
+                className="px-10 py-4 border-2 border-[var(--color-accent)] text-[var(--color-accent)] rounded-lg hover:bg-[var(--color-accent-dim)] transition-all duration-300 font-medium text-lg hover:transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:transform-none cursor-pointer"
               >
-                {t('sayHello')}
+                {isSubmitting ? t('sending') : t('sayHello')}
               </button>
+
+              {/* Feedback Messages */}
+              {submitStatus === 'success' && (
+                <p className="mt-4 text-green-500 font-medium">
+                  {t('messageSent')}
+                </p>
+              )}
+              {submitStatus === 'error' && (
+                <p className="mt-4 text-red-500 font-medium">
+                  {t('messageFailed')}
+                </p>
+              )}
             </div>
           </form>
         </div>

@@ -3,11 +3,44 @@ export const Config = {
     socials: {
         github: 'https://github.com/Zuleny',
         linkedin: 'https://linkedin.com/in/zuleny-cruz-rodriguez',
-        twitter: 'https://twitter.com/',
-        instagram: 'https://instagram.com/',
     },
 };
 
+export const projects = [
+    {
+        id: '1',
+        image: '/images/projects/project-1.png',
+        technologies: ['C#', '.NET', 'PHP', 'Laravel', 'Dart', 'Flutter', 'PostgreSQL'],
+        repositoryUrl: '#',
+        liveUrl: '#'
+    },
+    {
+        id: '2',
+        image: '/images/projects/project-2.png',
+        technologies: ['PHP', 'Laravel', 'Livewire', 'MySQL'],
+        repositoryUrl: '#',
+        liveUrl: '#'
+    },
+    {
+        id: '3',
+        image: '/images/projects/project-3.png',
+        technologies: ['PHP', 'Laravel', 'Livewire', 'MySQL', 'Dart', 'Flutter'],
+        repositoryUrl: '#',
+        liveUrl: '#'
+    },
+    {
+        id: '4',
+        image: '/images/projects/project-4.png',
+        technologies: ['C#', '.NET', 'ASP.NET Core', 'PostgreSQL', 'RabbitMQ'],
+        repositoryUrl: 'https://github.com/ZulenyDevs/NutritionalAdvice',
+        liveUrl: '#'
+    }
+];
+
+export const resumeLinks = {
+    es: 'https://scir3apfveip9rtp.public.blob.vercel-storage.com/documents/resume/cv-es.pdf',
+    en: 'https://scir3apfveip9rtp.public.blob.vercel-storage.com/documents/resume/cv-en.pdf',
+};
 
 export const Github = ({ className }: { className?: string }) => (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className}>

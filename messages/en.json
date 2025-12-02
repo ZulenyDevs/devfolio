@@ -8,16 +8,21 @@
     "contact": "Contact",
     "resume": "Resume",
     "getInTouch": "Get In Touch",
-    "sayHello": "Say Hello",
-    "downloadResume": "Download Resume (PDF)",
+    "sayHello": "Send Message",
+    "viewResume": "View Resume (PDF)",
     "viewExperienceOnline": "View Experience Online",
     "madeWith": "Made with ❤️ by",
     "whatsNext": "What's Next?",
     "letsChat": "Let's Chat!",
-    "contactDescription": "Whether you have a question, a project idea, or just want to connect, I'm always happy to hear from you. Drop me a message, and I'll be in touch soon!",
+    "contactDescription": "Whether you have a question, a job offer, a project idea, or just want to connect, I'm always happy to hear from you. Leave me a message and I'll get back to you.",
     "name": "Name",
     "email": "Email",
-    "message": "Message"
+    "message": "Message",
+    "sending": "Sending...",
+    "messageSent": "✓ Message sent successfully! I'll get back to you soon.",
+    "messageFailed": "✗ Failed to send message. Please try again or email me directly.",
+    "sourceCode": "Source Code",
+    "livePreview": "Live Preview"
   },
   "hero": {
     "greeting": "Hi, my name is",
@@ -97,68 +102,53 @@
   "projects": {
     "title": "Things I've worked on",
     "featured": "Featured Project",
-    "projects": {
-      "gpsDecoder": {
-        "title": "GPS Decoder System",
-        "description": "Developed and implemented over 200 GPS frame decoding protocols, successfully integrating more than 200 new devices. This system is currently utilized by over 300 vehicles, demonstrating high proficiency in high-impact systems.",
-        "technologies": [
-          ".NET",
-          "C#",
-          "SQL Server",
-          "Entity Framework",
-          "REST APIs"
-        ]
+    "items": {
+      "1": {
+        "title": "Satellite Asset Monitoring Platform",
+        "type": "Professional",
+        "description": "Comprehensive web and mobile solution for asset management. It allows real-time visualization of assets (vehicles), management of geographic objects (geofences, locations, routes), and configuration of alerts and reports. The system is scalable to integrate new GPS device models and features sub-user management and role-based permissions."
       },
-      "mediaManagement": {
-        "title": "Media Management Platform",
-        "description1": "This project aimed to tackle the complexities of media planning across diverse channels, where challenges such as errors and compliance issues frequently arise. These hurdles often result in time-consuming tasks and potential regulatory risks, diverting attention away from strategic thinking and creative endeavours.",
-        "description2": "Our objective was to streamline the media planning process, minimizing errors and ensuring compliance, allowing teams to focus on strategic decision-making and creativity.",
-        "technologies": [
-          "Angular",
-          ".NET Framework",
-          "SQL Server",
-          "Microsoft IIS",
-          "Firebase",
-          "CI/CD"
-        ]
+      "2": {
+        "title": "Web Application for Grade Management",
+        "type": "Professional",
+        "description": "Web platform for comprehensive academic information management. The system manages user registration (teachers, parents, students, etc.), the structure of academic periods (two-month periods, trimesters, etc.), and automates grade entry. It allows for the automatic generation of reports and report cards."
       },
-      "smileAnalysis": {
-        "title": "Smile Analysis Web Application",
-        "description1": "Developed and deployed a smile detection application for elderly residents in Japanese old age homes using computer vision and machine learning algorithms.",
-        "description2": "Designed and implemented a user-friendly interface using Angular with Flask backend to analyze smiles in real-time.",
-        "technologies": [
-          "Angular",
-          "Python",
-          "SQL Server",
-          "AWS"
-        ]
+      "3": {
+        "title": "Logistics Management Platform (Courier)",
+        "type": "Professional",
+        "description": "Web and mobile solution for shipment management and package tracking. The system allows for the management of users (customers, couriers) and subsidiaries, where packages are received and shipped. Customers can get quotes and request shipments directly from the app, which also includes a dedicated application for couriers. It allows for operational management and report generation."
+      },
+      "4": {
+        "title": "Web Application for Meal Plan Management",
+        "type": "Academic",
+        "description": "Web solution for managing nutritional counseling and personalized catering services. Manages 15- or 30-day meal plans (configurable), integrating an initial consultation and periodic check-ups to measure patient progress. The system allows customers to modify their delivery schedule and check the progress of their measurements."
       }
     }
   },
   "education": {
     "title": "Education and Certifications",
-    "items": {
-      "bachelor": {
-        "title": "Bachelor's Degree in Computer Engineering",
-        "institution": "Gabriel René Moreno Autonomous University",
-        "period": "March 2016 - June 2022"
-      },
-      "diploma1": {
-        "title": "Diploma in IT Infrastructure in the Cloud with Open Source Software",
-        "institution": "Graduate School of Engineering UAGRM University",
-        "period": "September 2022 - April 2023"
-      },
-      "diploma2": {
+    "items": [
+      {
         "title": "Diploma in Architecture with Microservices",
         "institution": "Graduate School Nur University",
         "period": "October 2024 - July 2025"
       },
-      "course": {
+      {
+        "title": "Diploma in IT Infrastructure in the Cloud with Open Source Software",
+        "institution": "Graduate School of Engineering UAGRM University",
+        "period": "September 2022 - April 2023"
+      },
+      {
+        "title": "Bachelor's Degree in Computer Engineering",
+        "institution": "Gabriel René Moreno Autonomous University",
+        "period": "March 2016 - June 2022"
+      },
+      {
         "title": "Basic English",
         "institution": "CAI-UAGRM",
         "period": "February 2018 - June 2019"
       }
-    },
+    ],
     "additionalInfo": {
       "title": "Additional Information",
       "languages": "Languages: Spanish (Native), English (A2)"
@@ -166,18 +156,6 @@
   },
   "resume": {
     "title": "Resume",
-    "description": "Download my complete professional resume to learn more about my experience, skills, and achievements.",
-    "technicalSkills": {
-      "title": "Technical Skills",
-      "description": "Angular, .NET, TypeScript, JavaScript, Node.js, and modern web technologies"
-    },
-    "experience": {
-      "title": "Experience",
-      "description": "Full-Stack development with focus on scalable web applications and API development"
-    },
-    "projects": {
-      "title": "Projects",
-      "description": "Portfolio of innovative solutions and modern web applications"
-    }
+    "description": "Download my complete professional resume to learn more about my experience, skills, and achievements."
   }
 }

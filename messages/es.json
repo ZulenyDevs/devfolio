@@ -8,16 +8,21 @@
     "contact": "Contacto",
     "resume": "Resumen",
     "getInTouch": "Ponerse en Contacto",
-    "sayHello": "Di Hola",
-    "downloadResume": "Descargar Resumen (PDF)",
+    "sayHello": "Enviar Mensaje",
+    "viewResume": "Ver Resumen (PDF)",
     "viewExperienceOnline": "Ver Experiencia en Línea",
     "madeWith": "Hecho con ❤️ por",
     "whatsNext": "¿Qué sigue?",
     "letsChat": "¡Hablemos!",
-    "contactDescription": "Ya sea que tengas una pregunta, una idea de proyecto o solo quieras conectar, siempre estoy feliz de escucharte. Déjame un mensaje y me pondré en contacto pronto.",
+    "contactDescription": "Ya sea que tengas una pregunta, una oferta laboral, una idea de proyecto o solo quieras conectar, siempre estoy feliz de escucharte. Déjame un mensaje y me pondré en contacto contigo.",
     "name": "Nombre",
     "email": "Correo",
-    "message": "Mensaje"
+    "message": "Mensaje",
+    "sending": "Enviando...",
+    "messageSent": "✓ Mensaje enviado correctamente! Te contactaré pronto.",
+    "messageFailed": "✗ Error al enviar el mensaje. Por favor, intenta de nuevo o envíame un correo directamente.",
+    "sourceCode": "Código fuente",
+    "livePreview": "Ver Demo"
   },
   "hero": {
     "greeting": "Hola, mi nombre es",
@@ -97,68 +102,53 @@
   "projects": {
     "title": "Cosas en las que he trabajado",
     "featured": "Proyecto Destacado",
-    "projects": {
-      "gpsDecoder": {
-        "title": "Sistema Decodificador GPS",
-        "description": "Desarrollé e implementé más de 200 protocolos de decodificación de frames GPS, integrando exitosamente más de 200 nuevos dispositivos. Este sistema es utilizado actualmente por más de 300 vehículos, demostrando alta competencia en sistemas de alto impacto.",
-        "technologies": [
-          ".NET",
-          "C#",
-          "SQL Server",
-          "Entity Framework",
-          "REST APIs"
-        ]
+    "items": {
+      "1": {
+        "title": "Plataforma de Monitoreo Satelital de Activos",
+        "type": "Laboral",
+        "description": "Solución integral Web y Móvil para la gestión de activos. Permite la visualización en tiempo real de activos(vehículos), la administración de objetos geográficos (geocercas, lugares, rutas) y la configuración de alertas y reportes. El sistema es escalable para integrar modelos nuevos de Equipos GPS y cuenta con gestión de subusuarios y permisos basada en roles."
       },
-      "mediaManagement": {
-        "title": "Plataforma de Gestión de Medios",
-        "description1": "Este proyecto tuvo como objetivo abordar las complejidades de la planificación de medios en diversos canales, donde desafíos como errores y problemas de cumplimiento surgen frecuentemente. Estos obstáculos a menudo resultan en tareas que consumen mucho tiempo y riesgos regulatorios potenciales, desviando la atención del pensamiento estratégico y los esfuerzos creativos.",
-        "description2": "Nuestro objetivo era agilizar el proceso de planificación de medios, minimizando errores y asegurando el cumplimiento, permitiendo que los equipos se concentren en la toma de decisiones estratégicas y la creatividad.",
-        "technologies": [
-          "Angular",
-          ".NET Framework",
-          "SQL Server",
-          "Microsoft IIS",
-          "Firebase",
-          "CI/CD"
-        ]
+      "2": {
+        "title": "Aplicación Web para Gestión de Notas",
+        "type": "Laboral",
+        "description": "Plataforma web para la gestión integral de información académica. El sistema administra el registro de usuarios (profesores,padres, estudiantes, etc), la estructura de los períodos académicos (bimestres, trimestres, etc.), y automatiza la carga de notas. Permite la generación automática de reportes y boletines de calificaciones."
       },
-      "smileAnalysis": {
-        "title": "Aplicación Web de Análisis de Sonrisas",
-        "description1": "Desarrollé e implementé una aplicación de detección de sonrisas para residentes mayores en hogares de ancianos japoneses usando algoritmos de visión por computadora y aprendizaje automático.",
-        "description2": "Diseñé e implementé una interfaz fácil de usar usando Angular con backend Flask para analizar sonrisas en tiempo real.",
-        "technologies": [
-          "Angular",
-          "Python",
-          "SQL Server",
-          "AWS"
-        ]
+      "3": {
+        "title": "Plataforma de Gestión Logística (Courrier)",
+        "type": "Laboral",
+        "description": "Solución Web y Móvil para la gestión de envíos y seguimiento logistico de guías. El sistema permite la gestión de usuarios (clientes, mensajeros) y de sucursales, donde se realiza la recepción y el envío de guías. Los clientes pueden cotizar y solicitar envíos directamente desde la app, la cual también incluye una aplicación dedicada para el mensajero. Permite la gestión operativa y la generación de reportes."
+      },
+      "4": {
+        "title": "Aplicación Web para Gestión de Planes Alimenticios",
+        "type": "Académico",
+        "description": "Solución web para la gestión de servicios de asesoramiento nutricional y catering personalizado. Gestiona planes alimentarios de 15 o 30 días(configurable), integrando una consulta inicial y evaluaciones periódicas de control para medir la evolución del paciente. El sistema permite a los clientes modificar su calendario de entregas y consultar el seguimiento de sus mediciones."
       }
     }
   },
   "education": {
     "title": "Educación y Certificaciones",
-    "items": {
-      "bachelor": {
-        "title": "Licenciatura en Ingeniería en Sistemas",
-        "institution": "Universidad Autónoma Gabriel René Moreno",
-        "period": "Marzo 2016 - Junio 2022"
-      },
-      "diploma1": {
-        "title": "Diplomado en Infraestructura TI en la Nube con Software de Código Abierto",
-        "institution": "Escuela de Posgrado de Ingeniería UAGRM",
-        "period": "Septiembre 2022 - Abril 2023"
-      },
-      "diploma2": {
+    "items": [
+      {
         "title": "Diplomado en Arquitectura con Microservicios",
         "institution": "Escuela de Posgrado Universidad Nur",
         "period": "Octubre 2024 - Julio 2025"
       },
-      "course": {
+      {
+        "title": "Diplomado en Infraestructura TI en la Nube con Software de Código Abierto",
+        "institution": "Escuela de Posgrado de Ingeniería UAGRM",
+        "period": "Septiembre 2022 - Abril 2023"
+      },
+      {
+        "title": "Licenciatura en Ingeniería en Sistemas",
+        "institution": "Universidad Autónoma Gabriel René Moreno",
+        "period": "Marzo 2016 - Junio 2022"
+      },
+      {
         "title": "Inglés Básico",
         "institution": "CAI-UAGRM",
         "period": "Febrero 2018 - Junio 2019"
       }
-    },
+    ],
     "additionalInfo": {
       "title": "Información Adicional",
       "languages": "Idiomas: Español (Nativo), Inglés (A2)"
@@ -166,18 +156,6 @@
   },
   "resume": {
     "title": "Resumen",
-    "description": "Descarga mi resumen profesional completo para conocer más sobre mi experiencia, habilidades y logros.",
-    "technicalSkills": {
-      "title": "Habilidades Técnicas",
-      "description": "Angular, .NET, TypeScript, JavaScript, Node.js y tecnologías web modernas"
-    },
-    "experience": {
-      "title": "Experiencia",
-      "description": "Desarrollo Full-Stack con enfoque en aplicaciones web escalables y desarrollo de APIs"
-    },
-    "projects": {
-      "title": "Proyectos",
-      "description": "Portafolio de soluciones innovadoras y aplicaciones web modernas"
-    }
+    "description": "Descarga mi resumen profesional completo para conocer más sobre mi experiencia, habilidades y logros."
   }
 }

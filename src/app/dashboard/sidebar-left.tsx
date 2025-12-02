@@ -1,13 +1,11 @@
 'use client';
 
-import { Config, Github, Linkedin, Twitter, Instagram } from '@/lib/constants';
+import { Config, Github, Linkedin } from '@/lib/constants';
 
 
 const socialLinks = [
   { icon: Github, href: Config.socials.github, label: 'GitHub' },
   { icon: Linkedin, href: Config.socials.linkedin, label: 'LinkedIn' },
-  { icon: Twitter, href: Config.socials.twitter, label: 'Twitter' },
-  { icon: Instagram, href: Config.socials.instagram, label: 'Instagram' },
 ];
 
 export default function Sidebar() {
