@@ -7,6 +7,16 @@ import Header from '@/app/dashboard/header';
 import Footer from '@/app/dashboard/footer';
 import SidebarLeft from '@/app/dashboard/sidebar-left';
 import SidebarRight from '@/app/dashboard/sidebar-right';
+import type { Metadata } from 'next';
+
+
+// Metadata for the page (title, description, favicon, etc.)
+export const metadata: Metadata = {
+  title: process.env.PUBLIC_APP_NAME || 'Devfolio',
+  icons: {
+    icon: '/favicon.svg',
+  },
+};
 
 type Props = {
   children: React.ReactNode;
