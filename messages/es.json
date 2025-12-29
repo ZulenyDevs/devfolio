@@ -22,7 +22,17 @@
     "messageSent": "✓ Mensaje enviado correctamente! Te contactaré pronto.",
     "messageFailed": "✗ Error al enviar el mensaje. Por favor, intenta de nuevo o envíame un correo directamente.",
     "sourceCode": "Código fuente",
-    "livePreview": "Ver Demo"
+    "livePreview": "Ver Demo",
+    "languages": {
+      "en": {
+        "label": "Ingles",
+        "abbr": "EN"
+      },
+      "es": {
+        "label": "Español",
+        "abbr": "ES"
+      }
+    }
   },
   "hero": {
     "greeting": "Hola, mi nombre es",

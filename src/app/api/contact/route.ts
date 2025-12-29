@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
         // Send email using Resend
         const { data, error } = await resend.emails.send({
             from: 'Portfolio Contact <onboarding@resend.dev>', // You'll need to update this with your verified domain
-            to: process.env.TO_EMAIL || 'devfolio@gmail.com',
+            to: process.env.RESEND_TO_EMAIL || 'devfolio@gmail.com',
             replyTo: email,
             subject: `New Portfolio Contact from ${name}`,
             react: emailHtml,
