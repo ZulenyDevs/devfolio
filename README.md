@@ -11,6 +11,7 @@ A professional, high-performance developer portfolio built with the latest web t
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Internationalization:** [next-intl](https://next-intl-docs.vercel.app/) (English & Spanish)
 - **Email:** [Resend](https://resend.com/) + [React Email](https://react.email/)
+- **Analytics:** [Google Analytics 4](https://analytics.google.com/) (SPA-aware page tracking)
 - **Icons:** [Heroicons](https://heroicons.com/)
 - **Package Manager:** [pnpm](https://pnpm.io/)
 
@@ -21,6 +22,7 @@ A professional, high-performance developer portfolio built with the latest web t
 - **Internationalization (i18n):** Full support for English and Spanish content.
 - **High Performance:** Static generation, optimized images (`next/image`), and fast page loads.
 - **Contact Form:** Functional contact form integrated with Resend API for real-time email delivery.
+- **Analytics:** Google Analytics 4 integrated with SPA-aware route tracking across all localized pages.
 - **Dynamic Content:** Project and experience data separated from UI logic for easy updates.
 - **SEO Optimized:** Proper metadata, semantic HTML, and Open Graph support.
 
@@ -46,14 +48,18 @@ A professional, high-performance developer portfolio built with the latest web t
 
 3. Configure Environment Variables:
    
-   Create a `.env.local` file in the root directory and add your Resend API credentials:
+   Create a `.env` file in the root directory (use `.env.example` as reference):
    
    ```env
-   # Resend API Configuration
+   # App
+   PUBLIC_APP_NAME=Your Name
+
+   # Resend API (contact form)
    RESEND_API_KEY=re_your_api_key_here
-   
-   # Email to receive contact form submissions
-   TO_EMAIL=your_email@example.com
+   RESEND_TO_EMAIL=your_email@example.com
+
+   # Google Analytics 4
+   NEXT_PUBLIC_GOOGLE_ANALYTICS_MEASUREMENT_ID=G-XXXXXXXXXX
    ```
 
 4. Run the development server:
