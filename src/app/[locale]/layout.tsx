@@ -7,6 +7,7 @@ import Header from '@/app/dashboard/header';
 import Footer from '@/app/dashboard/footer';
 import SidebarLeft from '@/app/dashboard/sidebar-left';
 import SidebarRight from '@/app/dashboard/sidebar-right';
+import GoogleAnalytics from '@/components/google-analytics';
 import type { Metadata } from 'next';
 
 
@@ -35,6 +36,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html className="h-full" lang={locale}>
       <body className="min-h-screen flex flex-col">
+        <GoogleAnalytics />
         <NextIntlClientProvider>
           {/* Header - Fixed at top */}
           <Header />

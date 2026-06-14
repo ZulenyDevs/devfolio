@@ -86,7 +86,7 @@ export default function Header() {
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setLanguageDropdownOpen(!languageDropdownOpen)}
-              className="flex items-center gap-2 p-2 text-[var(--color-text-tertiary)] hover:text-[var(--color-accent)] transition-colors"
+              className="flex items-center gap-2 p-2 text-[var(--color-text-tertiary)] hover:text-[var(--color-accent)] transition-colors cursor-pointer"
               aria-label="Select language"
             >
               <GlobeAltIcon className="w-5 h-5" />
