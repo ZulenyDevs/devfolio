@@ -42,7 +42,7 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "Software Developer with 3+ years of experience across the full application lifecycle, with a strong focus on Backend development, Databases, and designing System Architectures (Microservices/Monolithic). I also possess knowledge and experience in Frontend (React, Flutter) to provide a comprehensive approach to development.",
+    "paragraph1": "Software Developer with 4+ years of experience across the full application lifecycle, with a strong focus on Backend development, Databases, and designing System Architectures (Microservices/Monolithic). I also possess knowledge and experience in Frontend (React, Flutter) to provide a comprehensive approach to development.",
     "paragraph2": "I deliver value by building effective and sustainable solutions, such as developing GPS decoders currently utilized by over 300 active devices, demonstrating high proficiency in high-impact systems."
   },
   "experience": {
@@ -50,9 +50,19 @@
     "subtitle": "Professional Journey",
     "jobs": [
       {
+        "title": "Website Manager and Full Stack Developer",
+        "company": "Secretaria Municipal de Cultura y Turismo - GAMSC",
+        "period": "March 2026 - June 2026",
+        "achievements": [
+          "Developed and implemented the official website for the Long Night of Museums 2026.",
+          "Developed and implemented new functionalities for a library management system.",
+          "Coordinated with non-technical teams to translate functional requirements into user stories and concrete deliverables."
+        ]
+      },
+      {
         "title": "Full Stack Developer",
         "company": "CenturySoft",
-        "period": "November 2023 - Present",
+        "period": "November 2023 - March 2026",
         "achievements": [
           "Developed and implemented new GPS frame decoding protocols, successfully integrating over 300 devices.",
           "Optimized event logging and notification delivery (push, WhatsApp, email, SMS), significantly reducing sending time.",
