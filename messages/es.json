@@ -42,7 +42,7 @@
   },
   "about": {
     "title": "Acerca de Mí",
-    "paragraph1": "Desarrolladora de Software con más de 3 años de experiencia en el ciclo de vida completo de aplicaciones, con fuerte enfoque en el desarrollo Backend, Bases de Datos y diseño de Arquitecturas (Microservicios/Monolíticas). Poseo experiencia y conocimientos en Frontend (React, Flutter) para aportar una visión integral al desarrollo.",
+    "paragraph1": "Desarrolladora de Software con más de 4 años de experiencia en el ciclo de vida completo de aplicaciones, con fuerte enfoque en el desarrollo Backend, Bases de Datos y diseño de Arquitecturas (Microservicios/Monolíticas). Poseo experiencia y conocimientos en Frontend (React, Flutter) para aportar una visión integral al desarrollo.",
     "paragraph2": "Mi valor reside en construir soluciones efectivas y sostenibles, como el desarrollo de decodificadores GPS, utilizados actualmente por más de 300 equipos, demostrando habilidad avanzada en sistemas de alto impacto."
   },
   "experience": {
@@ -50,9 +50,19 @@
     "subtitle": "Trayectoria Profesional",
     "jobs": [
       {
+        "title": "Responsable de Sitios Web y Desarrollador Full Stack",
+        "company": "Secretaria Municipal de Cultura y Turismo - GAMSC",
+        "period": "Marzo 2026 - Junio 2026",
+        "achievements": [
+          "Desarrollé e implementé el sitio web oficial para la Larga Noche de los Museos 2026.",
+          "Desarrollé e implementé funcionalidades nuevas para un sistema de gestión bibliotecaria.",
+          "Coordiné con equipos no técnicos para traducir requerimientos funcionales en historias de usuario y entregables concretos."
+        ]
+      },
+      {
         "title": "Desarrollador Full Stack",
         "company": "CenturySoft",
-        "period": "Noviembre 2023 - Presente",
+        "period": "Noviembre 2023 - Marzo 2026",
         "achievements": [
           "Desarrollé e implementé protocolos nuevos de decodificación de tramas GPS, integrando exitosamente más de 300 equipos.",
           "Optimicé el registro de eventos y la entrega de notificaciones (push, WhatsApp, correo electrónico, SMS), reduciendo significativamente el tiempo de envío.",
